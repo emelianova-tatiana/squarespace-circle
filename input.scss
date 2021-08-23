@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #222;
+}
+header {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 40px 124px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .appellative {
+    min-width: 234px;
+    font-weight: 500;
+}
+header .appellative svg {
+    padding-top: 0.6em;
+}
+header .appellative__large-register {
+    font-size: 28px;
+}
+header .appellative__small-register {
+    font-size: 14px;
+}
+header nav {
+    vertical-align: bottom;
+}
+header nav a {
+    margin: 0 15px;
+    font-size: 11px;
+    letter-spacing: .09em;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+header .admittance {
+    min-width: 210px;
+}
+header .admittance button {
+    padding: 1.683em 2.7273em;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: white;
+    text-transform: uppercase;
+}
+header .admittance__button-log {
+    border: none;
+}
+header .admittance__button-sign {
+    border: 1px solid black;
+}
